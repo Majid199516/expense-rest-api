@@ -129,4 +129,3 @@ app.delete("/api/expense/:id", (req, res, next) => {
 app.use(function (req, res) {
   res.status(404);
 });
-console.log("hello");
